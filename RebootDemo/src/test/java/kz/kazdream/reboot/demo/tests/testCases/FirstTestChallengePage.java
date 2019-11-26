@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import javax.print.attribute.HashDocAttributeSet;
 
+import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
@@ -33,10 +34,17 @@ public class FirstTestChallengePage {
 
 
     public FirstTestChallengePage setFirstName(String text) {
-        refresh();
+
         firstName.click();
-        firstName.setValue(text);
-       /* firstName.shouldHave(text("sad"));*/
+
+        for (int i =0; i<20; i++)
+        {firstName.sendKeys(text);
+            String x = firstName.getValue();
+            if(text.equals(x)) {
+                break;
+            }
+        }
+
         return this;
     }
 
