@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fffa0f1-9f58-4203-9ddb-0c39a450cc1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kz/kazdream/reboot/demo/tests/testRunner/testChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/kz/kazdream/reboot/demo/tests/testRunner/testChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/kz/kazdream/reboot/demo/tests/testCases/FirstTestChallengePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kz/kazdream/reboot/demo/tests/testCases/FirstTestChallengePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/kz/kazdream/reboot/demo/tests/testRunner/testChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/kz/kazdream/reboot/demo/tests/testRunner/testChallenge.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1573805703039" duration="1141000" />
       <workItem from="1574745434081" duration="104000" />
       <workItem from="1574745848157" duration="7023000" />
-      <workItem from="1574852549619" duration="957000" />
+      <workItem from="1574852549619" duration="1574000" />
     </task>
     <servers />
   </component>
