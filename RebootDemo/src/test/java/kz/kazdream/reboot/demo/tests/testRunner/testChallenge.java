@@ -7,17 +7,16 @@ import org.openqa.selenium.Keys;
 
 public class testChallenge extends ChromeSettings {
 
-    private FirstTestChallengePage firstTestChallengePage = new FirstTestChallengePage();
 
     @Test
     void E2ETest() {
-        firstTestChallengePage
+        new FirstTestChallengePage()
                 .setFirstName("a")
                 .submitForm()
                 .checkCase("Minimum value")
-                .setFirstName("wwwwwwwwwwwwwwwwwwwwwwwwwwwwww")
+                .setFirstName("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww")
                 .submitForm()
-                .checkCase("Maximum values")
+                .checkCase("More than maximum values")
                 .setFirstName(String.valueOf(Keys.SPACE))
                 .submitForm()
                 .checkCase("Space")
