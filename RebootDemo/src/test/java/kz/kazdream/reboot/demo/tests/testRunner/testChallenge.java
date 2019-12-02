@@ -7,7 +7,6 @@ import org.openqa.selenium.Keys;
 
 public class testChallenge extends ChromeSettings {
 
-
     @Test
     void E2ETest() {
         new FirstTestChallengePage()
